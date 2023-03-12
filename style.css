@@ -1,0 +1,45 @@
+body{
+    background-image: url(image.jpg);
+    
+}
+.container{
+background-color: whitesmoke;
+width: 500px;
+margin: 10vh auto 0 auto;
+padding: 40px;
+font-size: 20px;
+display: flex;
+}
+
+form h1,label{
+    color: rgb(71, 33, 33);
+    font-display: center;
+    text-align: center;
+    font-size: larger;
+    border-radius: 4px;
+}
+::-webkit-input-placeholder{
+color: rgb(71, 33, 33);
+font-size: large;
+}
+.input-control:focus{
+    color:rgb(71, 33, 33) ;
+    width: 100px;
+    
+}
+button{
+    width: 300px;
+    margin-top: 50px;
+    padding: 2vh;
+    color: whitesmoke ;
+    background-color:  rgb(71, 33, 33);
+    font-size: large;
+}
+input{
+    padding: 5px;
+    margin: 7px;
+    font-size: large;
+    color: rgb(71, 33, 33);
+    width: 70%;
+    margin-inline: ;
+}
