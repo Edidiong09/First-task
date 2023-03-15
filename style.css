@@ -4,11 +4,11 @@ body{
 }
 .container{
 background-color: whitesmoke;
-width: 500px;
 margin: 10vh auto 0 auto;
-padding: 40px;
 font-size: 20px;
 display: flex;
+padding: 20px;
+width: 400px;
 }
 
 form h1,label{
@@ -16,16 +16,10 @@ form h1,label{
     font-display: center;
     text-align: center;
     font-size: larger;
-    border-radius: 4px;
 }
 ::-webkit-input-placeholder{
 color: rgb(71, 33, 33);
-font-size: large;
-}
-.input-control:focus{
-    color:rgb(71, 33, 33) ;
-    width: 100px;
-    
+font-size: small;
 }
 button{
     width: 300px;
@@ -36,10 +30,32 @@ button{
     font-size: large;
 }
 input{
-    padding: 5px;
-    margin: 7px;
-    font-size: large;
+    font-size: 15px;
     color: rgb(71, 33, 33);
-    width: 70%;
-    margin-inline: ;
+    margin-inline: 20px ;
+}
+#gender{
+    width: 0px;
+    margin: 0px;
+}
+#text{
+    width: 200px;
+}
+.input-control{
+    text-align: left;
+}
+#fullname{
+    width: 300px;
+    height: 30px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+}
+#phoneno{
+    width: 300px;
+    height: 30px;
+}
+.error{
+    color: red;
 }
