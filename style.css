@@ -4,7 +4,7 @@ body{
 }
 .container{
 background-color: whitesmoke;
-margin: 10vh auto 0 auto;
+margin: 10vh auto;
 font-size: 20px;
 display: flex;
 padding: 20px;
